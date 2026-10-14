@@ -1,0 +1,19 @@
+NEON DASH - APK BEZ ANDROID STUDIO
+
+1. Otworz https://github.com/new
+2. Nadaj nazwe repozytorium np. neon-dash-android i nacisnij Create repository.
+3. Rozpakuj archiwum NEON_DASH_GitHub_APK.zip na komputerze.
+4. W nowym repo wybierz uploading an existing file lub Add file > Upload files.
+5. Przeciagnij ZAWARTOSC rozpakowanego katalogu (wraz z folderem .github) na strone przesylania plikow.
+   WAZNE: folder .github bywa ukryty; wlacz wyswietlanie ukrytych plikow.
+   Alternatywa: utworz w GitHub plik .github/workflows/android-apk.yml i wklej zawartosc lokalnego pliku.
+6. Nacisnij Commit changes.
+7. Otworz zakladke Actions, kliknij Zbuduj NEON DASH APK, potem Run workflow.
+   Jesli workflow juz wystartowal po wgraniu plikow, po prostu kliknij jego uruchomienie.
+8. Po zakonczonym zadaniu otworz jego szczegoly i pobierz artifact NEON-DASH-APK.
+9. Rozpakuj otrzymany plik ZIP i przenies app-debug.apk na telefon z Androidem.
+10. Otworz plik APK na telefonie i potwierdz instalacje (jesli Android pyta, zezwol na instalowanie z tej aplikacji).
+
+Nie trzeba instalowac Android Studio ani placic za konto Google Play.
+Wymagane jest konto GitHub i dostep do internetu przy budowaniu APK.
+To debug APK do wlasnych testow, nie wersja podpisana produkcyjnie do sklepu Google Play.
